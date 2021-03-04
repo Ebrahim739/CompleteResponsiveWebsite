@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-one</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header  id="navbar">
+            <a href="" class="logo">Good <span>Foods</span></a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" >Menu</a></li>
+                <li><a href="#" >About</a></li>
+                <li><a href="#" >Contact</a></li>
+            </ul>
+            <span class="menuIcon" onclick=" menuToggle();"></span>
+        </header>
+        <div class="content">
+            <div class="bannertext" id="slideshowText">
+                <div class="active">
+                    <h2>
+                        EAT Healthy <br>
+                        Stay Healthy
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+                         sed sunt, praesentium aut 
+                        delectus magni nostrum fuga iusto eaque quia, 
+                        possimus minima et perferendis velit necessitatibus eius facilis cumque ex.
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <h2>
+                       Good Food <br>
+                       Good Mood
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+                        delectus magni nostrum fuga iusto eaque quia, 
+                        possimus minima et perferendis velit necessitatibus eius facilis cumque ex.
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+                <div>
+                    <h2>
+                        EAT Your <br>
+                        Veggies
+                    </h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                         sed sunt, praesentium aut 
+                        ma et perferendis velit necessitatibus eius facilis cumque ex.
+                    </p>
+                    <a href="#">Read More</a>
+                </div>
+               
+            </div>
+            <div class="bannerimg" id="slideshow">
+                <img src="image/1.jpeg"  class="active">
+                <img src="image/2.jpeg" >
+                <img src="image/3.jpeg" >
+            </div>
+        </div>
+        <div class="icons">
+            <ul class="icon">
+               <li><a href="#"><img src="image/facebook-logo.png" ></a></li>
+               <li><a href="#"><img src="image/instagram.png" ></a></li>
+               <li><a href="#"><img src="image/twitter.png" ></a></li>
+            </ul>
+            <ul class="control">
+                <li><a ><img src="image/left-chevron.png" onclick="prevSlide();  nextSlideText();" ></a></li>
+                <li><a ><img src="image/right-chevron.png" onclick="nextSlide(); prevSlideText();" ></a></li>
+
+            </ul>
+        </div>
+    </div>
+
+   <script src="js/desgin.js"></script>
+</body>
+</html>
